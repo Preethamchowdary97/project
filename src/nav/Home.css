@@ -1,0 +1,38 @@
+/* ... (your existing styles) ... */
+
+.large-font {
+  font-size: 36px; /* Adjust the font size as needed */
+}
+
+.backgroundcolor {
+  background-color: #000; /* Black background color */
+  color: #fff; /* Text color */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ... (your existing styles) ... */
+
+.ct-link-button {
+  background-color: #0056b3; /* Updated button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 30px; /* Adjust the padding for larger button */
+  cursor: pointer;
+  font-size: 24px; /* Adjust the font size for larger button */
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensures the button is not full width */
+}
+
+.ct-link-button:hover {
+  background-color: #004080; /* Updated button hover color */
+}
+
+/* ... (your existing styles) ... */
+.text-center {
+  text-align: center;
+}
+

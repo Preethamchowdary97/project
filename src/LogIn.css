@@ -1,0 +1,64 @@
+/* Login.css */
+
+body {
+  background-image: url('https://i.pinimg.com/736x/1a/b0/c7/1ab0c72360fa624c4240a82d7d9305c0.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* Change the font-family if needed */
+}
+
+.login-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  background-color: #666; /* Grey background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff; /* Text color */
+}
+
+.login-title {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ... (rest of the existing styles) */
+
+.login-button {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* ... (rest of the existing styles) */
